@@ -16,7 +16,7 @@ async function handleSubmit(event) {
       form.reset()
     } else {
       response.json().then(data => {
-        if (Object.hasOwn(data, 'errors')) {
+        if (Object.hasOwnProperty(data, 'errors')) {
           status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
         } else {
           status.innerHTML = "Oops! There was a problem submitting your form"
