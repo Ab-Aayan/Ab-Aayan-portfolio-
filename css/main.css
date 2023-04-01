@@ -1225,6 +1225,13 @@ FOLDING FLUID GRID
 > 1024px            - 3-Column Fluid Grid
 Change widths as necessary
 ------------------------------------------- */
+//change
+/* SMALL TABLET */
+@media only screen and (max-width: 285px) {
+  .tab a {
+    font-size: 12px;
+  }
+}
 
 /* SMALL TABLET */
 @media only screen and (max-width: 600px) {
@@ -1319,6 +1326,11 @@ Change widths as necessary
 @media (max-width: 768px) {
   .progress-wrapper {
     margin-bottom: 50px;
+  }
+  //change
+    .tab a i {
+    font-size: 16px;
+    margin-right: 6px;
   }
 }
 
